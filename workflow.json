@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "0e19b61311c69fe34f479b830b10a5b0",
   "isDeleted": false,
-  "rev": "23-56e52873bd648201ce7f8bf215c68fab",
+  "rev": "26-1f502af49d93d832f58c011049b7bd0c",
   "description": "",
   "name": "simple_heatmap_app",
   "createdBy": "dschuller",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-04-11T11:32:43.383295Z"
+    "value": "2023-04-11T12:32:47.612386Z"
   },
   "urls": [],
   "tags": [],
@@ -88,7 +88,7 @@
     },
     {
       "kind": "Link",
-      "id": "fee7dbfb-2f45-4782-9dbf-e068523f7f24",
+      "id": "95bd2c0f-a896-4f73-9502-8e8dcd212fd8",
       "inputId": "7f47b2e8-92da-4d66-bd83-a041f7372207-i-0",
       "outputId": "efafef7c-9610-4ed3-9876-11a8a97b1b35-o-0"
     }
@@ -124,7 +124,7 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 699.4409539794923,
+          "x": 700.4409539794924,
           "y": 95.5
         }
       },
@@ -333,7 +333,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "cebb9837-0620-42e3-837e-50fbac160b0c"
+        "id": "066af2e3-a127-45c2-ad4a-4988ec00b6c9"
       }
     },
     {
@@ -575,7 +575,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "3e11701e-8976-47a4-bb81-1390ca1842f2"
+        "id": "e0a0562c-a75c-4350-a8b0-a024685e0ead"
       }
     },
     {
@@ -772,7 +772,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 10
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -845,13 +845,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 10
+          "nRows": 1
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "386fe74a-101e-48cc-9c3b-ecaf57fd02f9"
+        "id": "14f9006c-bcfa-4a21-894b-e3706e944d4b"
       }
     },
     {
@@ -1160,7 +1160,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "f778e40c-fa03-43ba-8749-5de2d6c13271"
+        "id": "6796ce29-1ebc-47cf-893a-1e1939c50a44"
       }
     },
     {
@@ -1226,7 +1226,7 @@
                 "factors": [
                   {
                     "kind": "Factor",
-                    "name": "Measurement",
+                    "name": "ds3.scaled_value",
                     "type": "double"
                   }
                 ],
@@ -1441,7 +1441,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "bd8cef2f-22ad-469f-86c1-064ffa39f641"
+        "id": "75a0c3d0-6552-478f-ab23-40ca7cf8036a"
       }
     },
     {
@@ -1740,7 +1740,7 @@
                 "factors": [
                   {
                     "kind": "Factor",
-                    "name": "Measurement",
+                    "name": "ds3.scaled_value",
                     "type": "double"
                   }
                 ],
@@ -1753,17 +1753,17 @@
                     {
                       "kind": "DoubleColorElement",
                       "color": 255,
-                      "stringValue": "-0.14522611600000002"
+                      "stringValue": "-2.0954106671799466"
                     },
                     {
                       "kind": "DoubleColorElement",
                       "color": 16777215,
-                      "stringValue": "0.5247500465000001"
+                      "stringValue": "0.061761963274523435"
                     },
                     {
                       "kind": "DoubleColorElement",
                       "color": 65280,
-                      "stringValue": "1.1947262090000001"
+                      "stringValue": "2.2189345937289935"
                     }
                   ]
                 }
@@ -1955,7 +1955,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "4f452832-b456-4d02-bc90-3894f6e71300"
+        "id": "3ef8fe34-7004-4773-b03c-56c880fffde5"
       }
     },
     {
@@ -1996,7 +1996,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": -143.0,
-    "y": 297.0
+    "x": -137.0,
+    "y": 139.0
   }
 }
