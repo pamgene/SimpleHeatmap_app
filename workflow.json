@@ -2,13 +2,13 @@
   "kind": "Workflow",
   "id": "0e19b61311c69fe34f479b830b10a5b0",
   "isDeleted": false,
-  "rev": "10-be9696b1050a09ffb1cada17811dcd6a",
+  "rev": "18-887af479a3e20b319d57ba45a4e484e7",
   "description": "",
-  "name": "SimpleHeatmap_app",
+  "name": "simple_heatmap_app",
   "createdBy": "dschuller",
   "acl": {
     "kind": "Acl",
-    "owner": "dschuller",
+    "owner": "Test_NewTemplates",
     "aces": []
   },
   "createdDate": {
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-04-06T15:24:32.294167Z"
+    "value": "2023-04-11T11:01:32.755206Z"
   },
   "urls": [],
   "tags": [],
@@ -70,21 +70,15 @@
     },
     {
       "kind": "Link",
-      "id": "f9558468-69b8-4828-9c89-cb2c16359b58",
-      "inputId": "e4b3392a-0b43-434d-8d87-df129908e6ab-i-0",
-      "outputId": "95311acf-fa7c-44c3-aea1-2e9a71320a53-o-0"
+      "id": "49720d6e-1d0c-4060-b902-5cb70399b55f",
+      "inputId": "efafef7c-9610-4ed3-9876-11a8a97b1b35-i-0",
+      "outputId": "371a82ba-57b2-4bd6-bce6-e839374548d1-o-0"
     },
     {
       "kind": "Link",
-      "id": "caa019f3-b47e-45dc-b03e-622cdc2743c4",
+      "id": "77006aae-67c7-4963-b255-b5c16d9ebf81",
       "inputId": "7f47b2e8-92da-4d66-bd83-a041f7372207-i-0",
       "outputId": "efafef7c-9610-4ed3-9876-11a8a97b1b35-o-0"
-    },
-    {
-      "kind": "Link",
-      "id": "ff6843de-5cf9-4f83-b529-3f8175a45c97",
-      "inputId": "efafef7c-9610-4ed3-9876-11a8a97b1b35-i-0",
-      "outputId": "36dcb4b4-5f27-4c67-afda-e66ee12c7bee-o-0"
     }
   ],
   "steps": [
@@ -327,7 +321,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "00906f95-6184-4da1-a7dd-a56592c9b816"
+        "id": "e01b189c-7066-4691-979a-8522eef25ca8"
       }
     },
     {
@@ -569,7 +563,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "af946b37-c3a5-4ceb-af75-7edc48eb46ee"
+        "id": "02c3740a-2a6c-4d9c-9394-5b187664b990"
       }
     },
     {
@@ -740,7 +734,7 @@
         },
         "columnTable": {
           "kind": "CrosstabTable",
-          "cellSize": 91.9,
+          "cellSize": 56.73333333333335,
           "offset": 0,
           "graphicalFactors": [
             {
@@ -806,7 +800,7 @@
                 "kind": "Rectangle",
                 "extent": {
                   "kind": "Point",
-                  "x": 110.0,
+                  "x": 0.0,
                   "y": 30.0
                 },
                 "topLeft": {
@@ -845,7 +839,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "70ad6bf3-1a84-4229-992b-624168cbe706"
+        "id": "32137cc4-40ce-4c07-ade2-c9588400be7b"
       }
     },
     {
@@ -1154,7 +1148,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "49d70d30-e445-4346-9c26-50ebe4f2de0e"
+        "id": "212b670b-0005-4e2f-ab29-66c475743eca"
       }
     },
     {
@@ -1228,22 +1222,22 @@
                   "kind": "RampPalette",
                   "backcolor": 0,
                   "properties": [],
-                  "isUserDefined": false,
+                  "isUserDefined": true,
                   "doubleColorElements": [
                     {
                       "kind": "DoubleColorElement",
                       "color": 255,
-                      "stringValue": "-0.14522611600000002"
+                      "stringValue": "-1.5"
                     },
                     {
                       "kind": "DoubleColorElement",
                       "color": 16777215,
-                      "stringValue": "0.5247500465000001"
+                      "stringValue": "0"
                     },
                     {
                       "kind": "DoubleColorElement",
-                      "color": 16711680,
-                      "stringValue": "1.1947262090000001"
+                      "color": 65280,
+                      "stringValue": "1.5"
                     }
                   ]
                 }
@@ -1330,7 +1324,7 @@
         },
         "columnTable": {
           "kind": "CrosstabTable",
-          "cellSize": 97.5,
+          "cellSize": 55.0,
           "offset": 0,
           "graphicalFactors": [
             {
@@ -1396,7 +1390,7 @@
                 "kind": "Rectangle",
                 "extent": {
                   "kind": "Point",
-                  "x": 110.0,
+                  "x": 0.0,
                   "y": 30.0
                 },
                 "topLeft": {
@@ -1435,7 +1429,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "b2e815cd-b126-4403-8fb8-49da27f2c1a0"
+        "id": "b3433044-68a0-4148-a44b-ebf2fa54b43c"
       }
     },
     {
@@ -1461,8 +1455,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 778.317666320801,
-          "y": 450.5
+          "x": 812.317666320801,
+          "y": 453.5
         }
       },
       "state": {
@@ -1471,53 +1465,6 @@
         "taskState": {
           "kind": "InitState"
         }
-      }
-    },
-    {
-      "kind": "OutStep",
-      "id": "e4b3392a-0b43-434d-8d87-df129908e6ab",
-      "groupId": "",
-      "name": "Output",
-      "inputs": [
-        {
-          "kind": "InputPort",
-          "id": "e4b3392a-0b43-434d-8d87-df129908e6ab-i-0",
-          "linkType": "any",
-          "name": "from"
-        }
-      ],
-      "outputs": [
-        {
-          "kind": "OutputPort",
-          "id": "e4b3392a-0b43-434d-8d87-df129908e6ab-o-0",
-          "linkType": "any",
-          "name": "to"
-        }
-      ],
-      "rectangle": {
-        "kind": "Rectangle",
-        "extent": {
-          "kind": "Point",
-          "x": 88.99000000000001,
-          "y": 55.0
-        },
-        "topLeft": {
-          "kind": "Point",
-          "x": 901.317666320801,
-          "y": 449.5
-        }
-      },
-      "state": {
-        "kind": "StepState",
-        "taskId": "",
-        "taskState": {
-          "kind": "InitState"
-        }
-      },
-      "groupPortPosition": {
-        "kind": "Point",
-        "x": 0.0,
-        "y": 0.0
       }
     },
     {
@@ -1550,8 +1497,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 698.2549417114259,
-          "y": 12.5
+          "x": 701.254941711426,
+          "y": -0.5
         }
       },
       "state": {
@@ -1673,13 +1620,13 @@
     },
     {
       "kind": "InStep",
-      "id": "36dcb4b4-5f27-4c67-afda-e66ee12c7bee",
+      "id": "371a82ba-57b2-4bd6-bce6-e839374548d1",
       "groupId": "",
       "name": "Input",
       "inputs": [
         {
           "kind": "InputPort",
-          "id": "36dcb4b4-5f27-4c67-afda-e66ee12c7bee-i-0",
+          "id": "371a82ba-57b2-4bd6-bce6-e839374548d1-i-0",
           "linkType": "any",
           "name": "from"
         }
@@ -1687,7 +1634,7 @@
       "outputs": [
         {
           "kind": "OutputPort",
-          "id": "36dcb4b4-5f27-4c67-afda-e66ee12c7bee-o-0",
+          "id": "371a82ba-57b2-4bd6-bce6-e839374548d1-o-0",
           "linkType": "any",
           "name": "to"
         }
@@ -1701,8 +1648,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 696.5050000000001,
-          "y": -74.5
+          "x": 701.5050000000001,
+          "y": -98.5
         }
       },
       "state": {
@@ -1721,7 +1668,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": 14.0,
-    "y": 176.0
+    "x": 24.0,
+    "y": 200.0
   }
 }
