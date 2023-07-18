@@ -1915,17 +1915,17 @@
       },
       "model": {
         "kind": "WizardStepModel",
-        "namespace": "simpleheatmapw",
-        "description": "",
-        "appDesignType": "",
+        "namespace": "Heatmap",
+        "description": "Generates heatmaps ranked by row mean",
+        "appDesignType": "Heatmap.c03_simple",
         "factors": [
           {
             "kind": "MappingFactor",
             "name": "Measurement",
             "type": "double",
             "isSingle": true,
-            "description": "",
-            "factorName": "Measurement",
+            "description": "Select the factor that defines the values to use in the computation.",
+            "factorName": "Quantitation Type",
             "factors": [
               {
                 "kind": "Factor",
@@ -1940,8 +1940,8 @@
             "name": "Variable",
             "type": "string",
             "isSingle": false,
-            "description": "",
-            "factorName": "Variable",
+            "description": "Select the peptide identifier.",
+            "factorName": "Peptide",
             "factors": [
               {
                 "kind": "Factor",
@@ -1956,8 +1956,8 @@
             "name": "Observation",
             "type": "string",
             "isSingle": false,
-            "description": "",
-            "factorName": "Observation",
+            "description": "Select the factor(s) defining a single value per cell.\n\nExample:\n* Barcode and Row\n* Barcode and Array\n * Sample Name",
+            "factorName": "Single Data Value per Cell",
             "factors": [
               {
                 "kind": "Factor",
@@ -1976,8 +1976,8 @@
             "name": "Measurement",
             "type": "double",
             "isSingle": true,
-            "description": "",
-            "factorName": "Measurement",
+            "description": "Select the factor that defines the values to use in the computation.",
+            "factorName": "Quantitation Type",
             "factors": [
               {
                 "kind": "Factor",
@@ -1992,8 +1992,8 @@
             "name": "Variable",
             "type": "string",
             "isSingle": false,
-            "description": "",
-            "factorName": "Variable",
+            "description": "Select the peptide identifier.",
+            "factorName": "Peptide",
             "factors": [
               {
                 "kind": "Factor",
@@ -2008,8 +2008,8 @@
             "name": "Observation",
             "type": "string",
             "isSingle": false,
-            "description": "",
-            "factorName": "Observation",
+            "description": "Select the factor(s) defining a single value per cell.\n\nExample:\n* Barcode and Row\n* Barcode and Array\n * Sample Name",
+            "factorName": "Single Data Value per Cell",
             "factors": [
               {
                 "kind": "Factor",
